@@ -8,12 +8,12 @@ $ npm install -g create-html-project
 ```
 
 ## Create new project:
-Required! Gulp installed `npm install -g gulp`
 ```
 $ create-html-project my-project-name
 ```
 
 ## You can run these commands in the project:
+Required! Gulp installed `npm install -g gulp`
 #### Starts the development server.
 ```
 $ npm run dev
