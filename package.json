@@ -1,0 +1,48 @@
+{
+  "name": "create-html-project",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Front-end boilerplate for creating new web projects with Gulp.js and everything you need to get started.",
+  "repository": {
+    "url": "https://github.com/GA-MO/create-html-project.git",
+    "type": "git"
+  },
+  "author": "Thawatchai Kuansombat (thawatchai.deartk@gmail.com)",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "create-html-project": "./lib/index.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "css",
+    "sass",
+    "scss",
+    "html-boilerplate",
+    "gulp-boilerplate",
+    "create-html-project"
+  ],
+  "dependencies": {
+    "babel": "^5.5.8",
+    "babel-core": "^5.6.18",
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "cross-spawn": "^4.0.0",
+    "fs-extra": "^1.0.0",
+    "semver": "^5.0.3",
+    "simple-git": "^1.73.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test-create-html-project": "node ./lib/index.js",
+    "create-html-project": "node ./src/index.js"
+  },
+  "files": [
+    "lib/index.js"
+  ],
+  "main": "lib/index.js"
+}
