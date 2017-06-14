@@ -1,7 +1,7 @@
 {
   "name": "create-html-project",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Front-end boilerplate for creating new web projects with Gulp.js and everything you need to get started.",
   "repository": {
     "url": "https://github.com/GA-MO/create-html-project.git",
